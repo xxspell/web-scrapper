@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "scrapper-img-text"
+version = "0.1.0"
+description = ""
+authors = ["hachimaru <74972395+xxspell@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ua-generator = "^0.1.9"
+httpx = "^0.26.0"
+aiosqlite = "^0.19.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
